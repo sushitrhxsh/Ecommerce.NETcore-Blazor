@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 using Ecommerce.Repositorio.Contrato;
 using Ecommerce.Repositorio.Implementacion;
+using Ecommerce.Utilidades;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,8 @@ builder.Services.AddDbContext<DbecommerceContext>(options =>
 builder.Services.AddTransient(typeof(IGenericoRepositorio<>),typeof(GenericoRepositorio<>));
 builder.Services.AddScoped<IVentaRepositorio,VentaRepositorio>();       // Service y Interface VentaRepositorio
 
+// Configuration to Automapper DTO as Model
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
 var app = builder.Build();
 
