@@ -13,3 +13,4 @@ C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Repositorio\bin\D
 C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Repositorio\bin\Debug\net7.0\Ecommerce.Modelo.pdb
 C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Repositorio\obj\Debug\net7.0\Ecommerce.Repositorio.csproj.AssemblyReference.cache
 C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Repositorio\obj\Debug\net7.0\Ecommerc.A77D9652.Up2Date
+C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Repositorio\obj\Debug\net7.0\Ecommerce.Repositorio.sourcelink.json

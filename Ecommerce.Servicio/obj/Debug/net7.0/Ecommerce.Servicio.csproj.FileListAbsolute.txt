@@ -19,3 +19,4 @@ C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Servicio\bin\Debu
 C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Servicio\bin\Debug\net7.0\Ecommerce.Utilidades.pdb
 C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Servicio\obj\Debug\net7.0\Ecommerce.Servicio.csproj.AssemblyReference.cache
 C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Servicio\obj\Debug\net7.0\Ecommerc.038EB47A.Up2Date
+C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Servicio\obj\Debug\net7.0\Ecommerce.Servicio.sourcelink.json

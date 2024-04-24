@@ -15,3 +15,4 @@ C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Utilidades\bin\De
 C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Utilidades\bin\Debug\net7.0\Ecommerce.Modelo.pdb
 C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Utilidades\obj\Debug\net7.0\Ecommerce.Utilidades.csproj.AssemblyReference.cache
 C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Utilidades\obj\Debug\net7.0\Ecommerc.18246A98.Up2Date
+C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.Utilidades\obj\Debug\net7.0\Ecommerce.Utilidades.sourcelink.json
