@@ -8,6 +8,6 @@ namespace Ecommerce.Repositorio.Contrato
 {
     public interface IVentaRepositorio: IGenericoRepositorio<Venta>
     {
-        Task<Venta> Registar(Venta modelo);
+        Task<Venta> Registrar(Venta modelo);
     }
 }
