@@ -17,7 +17,7 @@ namespace Ecommerce.Repositorio.Implementacion
             _dbContext = dbContext;
         }
 
-        public async Task<Venta> Registar(Venta modelo)
+        public async Task<Venta> Registrar(Venta modelo)
         {
             Venta ventaGenerado = new Venta();
             
@@ -47,6 +47,6 @@ namespace Ecommerce.Repositorio.Implementacion
             
             return ventaGenerado;
         }
-
+        
     }
 }

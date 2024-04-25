@@ -80,3 +80,5 @@ C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.API\bin\Debug\net
 C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.API\bin\Debug\net7.0\Ecommerce.Repositorio.pdb
 C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.API\bin\Debug\net7.0\Ecommerce.Utilidades.pdb
 C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.API\obj\Debug\net7.0\Ecommerce.API.sourcelink.json
+C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
