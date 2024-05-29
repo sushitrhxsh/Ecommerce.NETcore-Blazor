@@ -96,7 +96,7 @@ namespace Ecommerce.Servicio.Implementacion
             try
             {
                 var consulta = _categoriaRepositorio.Consultar(p => 
-                    string.Concat(p.Nombre.ToLower()).Contains(buscar.ToLower())
+                    p.Nombre!.ToLower().Contains(buscar.ToLower())
                 );
                 List<CategoriaDTO> lista =_mapper.Map<List<CategoriaDTO>>(await consulta.ToListAsync());
                 return lista;
