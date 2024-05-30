@@ -34,6 +34,25 @@
           "buildMultiTargeting/Blazored.Toast.props": {}
         }
       },
+      "CurrieTechnologies.Razor.SweetAlert2/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "7.0.0",
+          "Microsoft.AspNetCore.Components.Web": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/CurrieTechnologies.Razor.SweetAlert2.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/CurrieTechnologies.Razor.SweetAlert2.dll": {}
+        },
+        "build": {
+          "buildTransitive/CurrieTechnologies.Razor.SweetAlert2.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/CurrieTechnologies.Razor.SweetAlert2.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.18": {
         "type": "package",
         "dependencies": {
@@ -571,6 +590,25 @@
           "buildMultiTargeting/Blazored.Toast.props": {}
         }
       },
+      "CurrieTechnologies.Razor.SweetAlert2/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "7.0.0",
+          "Microsoft.AspNetCore.Components.Web": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/CurrieTechnologies.Razor.SweetAlert2.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/CurrieTechnologies.Razor.SweetAlert2.dll": {}
+        },
+        "build": {
+          "buildTransitive/CurrieTechnologies.Razor.SweetAlert2.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/CurrieTechnologies.Razor.SweetAlert2.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.18": {
         "type": "package",
         "dependencies": {
@@ -1102,6 +1140,60 @@
         "lib/net6.0/Blazored.Toast.dll",
         "lib/net7.0/Blazored.Toast.dll",
         "staticwebassets/Blazored.Toast.bundle.scp.css"
+      ]
+    },
+    "CurrieTechnologies.Razor.SweetAlert2/5.5.0": {
+      "sha512": "Mpo8yNWeUcFesm/d0vA2X/4TloKbXUszWo3u4OtDQvo9cj+zYVOIuB/ZKBL+alIMp1FViImU9BjJocwkIRXVWg==",
+      "type": "package",
+      "path": "currietechnologies.razor.sweetalert2/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/CurrieTechnologies.Razor.SweetAlert2.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/CurrieTechnologies.Razor.SweetAlert2.props",
+        "buildTransitive/CurrieTechnologies.Razor.SweetAlert2.props",
+        "currietechnologies.razor.sweetalert2.5.5.0.nupkg.sha512",
+        "currietechnologies.razor.sweetalert2.nuspec",
+        "lib/net6.0/CurrieTechnologies.Razor.SweetAlert2.dll",
+        "lib/net7.0/CurrieTechnologies.Razor.SweetAlert2.dll",
+        "lib/netstandard2.0/CurrieTechnologies.Razor.SweetAlert2.dll",
+        "logo_v2_128.png",
+        "staticwebassets/bootstrap4Theme.css",
+        "staticwebassets/bootstrap4Theme.js",
+        "staticwebassets/bootstrap4Theme.min.css",
+        "staticwebassets/bootstrap4Theme.min.js",
+        "staticwebassets/borderlessTheme.css",
+        "staticwebassets/borderlessTheme.js",
+        "staticwebassets/borderlessTheme.min.css",
+        "staticwebassets/borderlessTheme.min.js",
+        "staticwebassets/bulmaTheme.css",
+        "staticwebassets/bulmaTheme.js",
+        "staticwebassets/bulmaTheme.min.css",
+        "staticwebassets/bulmaTheme.min.js",
+        "staticwebassets/darkTheme.css",
+        "staticwebassets/darkTheme.js",
+        "staticwebassets/darkTheme.min.css",
+        "staticwebassets/darkTheme.min.js",
+        "staticwebassets/defaultTheme.css",
+        "staticwebassets/defaultTheme.js",
+        "staticwebassets/defaultTheme.min.css",
+        "staticwebassets/defaultTheme.min.js",
+        "staticwebassets/materialUITheme.css",
+        "staticwebassets/materialUITheme.js",
+        "staticwebassets/materialUITheme.min.css",
+        "staticwebassets/materialUITheme.min.js",
+        "staticwebassets/minimalTheme.css",
+        "staticwebassets/minimalTheme.js",
+        "staticwebassets/minimalTheme.min.css",
+        "staticwebassets/minimalTheme.min.js",
+        "staticwebassets/sweetAlert2.js",
+        "staticwebassets/sweetAlert2.min.js",
+        "staticwebassets/wordpressAdminTheme.css",
+        "staticwebassets/wordpressAdminTheme.js",
+        "staticwebassets/wordpressAdminTheme.min.css",
+        "staticwebassets/wordpressAdminTheme.min.js"
       ]
     },
     "Microsoft.AspNetCore.Authorization/7.0.18": {
@@ -2073,6 +2165,7 @@
     "net7.0": [
       "Blazored.LocalStorage >= 4.3.0",
       "Blazored.Toast >= 4.1.0",
+      "CurrieTechnologies.Razor.SweetAlert2 >= 5.5.0",
       "Ecommerce.DTO >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.18",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.18",
@@ -2136,6 +2229,10 @@
           "Blazored.Toast": {
             "target": "Package",
             "version": "[4.1.0, )"
+          },
+          "CurrieTechnologies.Razor.SweetAlert2": {
+            "target": "Package",
+            "version": "[5.5.0, )"
           },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
