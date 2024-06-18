@@ -53,5 +53,6 @@ namespace Ecommerce.WebAssembly.Servicios.Implementacion
         {
             return await _httpClient.GetFromJsonAsync<ResponseDTO<UsuarioDTO>>($"Usuario/Lista/{id}");
         }
+
     }
 }

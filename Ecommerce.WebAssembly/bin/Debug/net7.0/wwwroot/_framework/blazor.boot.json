@@ -1,7 +1,7 @@
 {
   "entryAssembly": "Ecommerce.WebAssembly",
   "resources": {
-    "hash": "sha256-3aEnnQLfz5t0m1VCBW8nixvcJxjzi/Bp2tv4NWIqudY=",
+    "hash": "sha256-4DpjtHouHwsotAP7vKczVBbeJRSaNhTIyqJxteP9Iuk=",
     "runtime": {
       "dotnet.7.0.16.uiyp8wp5d0.js": "sha256-4BiArKugJJtpQrznGF5zWfmJ2TB98+p6rKsyoqhtMk4=",
       "dotnet.timezones.blat": "sha256-rwyJqJu36keQwNmm/O1XV7tnkkVldIOK8GIjn4gTUt4=",
@@ -13,6 +13,7 @@
     "assembly": {
       "Blazored.LocalStorage.dll": "sha256-eXVgTw72kEn74FZgDQbLtvAmXbiZDSj5gzUnxVmwowQ=",
       "Blazored.Toast.dll": "sha256-6wGoA8FmxkQCTFIXEM+U+Y2kJJnSTJXRYwuByAUPWGU=",
+      "CurrieTechnologies.Razor.SweetAlert2.dll": "sha256-jaHzMzp157atLBDyTfDX4LuHLGBZ1q/5g/2s83upTCk=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-JBqO8nNDacAcNVL9TJjoOdh0T7mtVksgoYZ8FJ1KivQ=",
       "Microsoft.AspNetCore.Components.dll": "sha256-MJV8iLOXJdGIq2WrZGUtr55ULm04/vogrjOMFSE5MtE=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-OjyhyfJVTIr8E0JBti7x2Cc74AwqBxMekDwJdWRKQFY=",
@@ -204,12 +205,12 @@
       "mscorlib.dll": "sha256-7yxnoj0sx/xIMKjSCkfYzaeQKDj1UsUSr/JXW7fRggs=",
       "netstandard.dll": "sha256-c9xgB5oQro5/rBTTHeD+4cqLi9QOB+6fhaP3jmkeGo4=",
       "System.Private.CoreLib.dll": "sha256-FGXoQzMt7mcWfUZbWXoXgg8tPIt7PF+QZoXXBQWegAQ=",
-      "Ecommerce.DTO.dll": "sha256-+SwzrJeQQgL8iLr31koqUKFIaRmtCVDI0okUY8L/9OI=",
-      "Ecommerce.WebAssembly.dll": "sha256-ZVbcM1B8J0BH95mrHu+4qNGhjrSvbaxmLN/V+9PJ1Ag="
+      "Ecommerce.DTO.dll": "sha256-ddgqa7ZrHdX5YRcGTwAbvYMs7ydC8Uh04MUmaaITj/M=",
+      "Ecommerce.WebAssembly.dll": "sha256-4o9xe1aqwKkimYUdr6vj25JKvtM/X13zdbNwQbcIr9I="
     },
     "pdb": {
-      "Ecommerce.DTO.pdb": "sha256-JvaPC/NWFM5HkKpCQC7tugbBi2Pe4zD49E/1rQhdiCw=",
-      "Ecommerce.WebAssembly.pdb": "sha256-d28V0TuMhgxd/QdiallsFZnQ8FqQWZd+ATl6cygdgRA="
+      "Ecommerce.DTO.pdb": "sha256-xGJdVI/41iWDAjXPkOLCKgZMUs7dloNDbRpq6Cd73LM=",
+      "Ecommerce.WebAssembly.pdb": "sha256-TtfFiUo/mEe8E+KYZdwsmYNRBlkVLO4NWH5rf+KYjrw="
     },
     "runtimeAssets": {
       "dotnet.wasm": {
