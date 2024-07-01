@@ -22,7 +22,7 @@ namespace Ecommerce.Servicio.Implementacion
             _mapper = mapper;
         }
 
-        public async Task<SesionDTO> Actorizacion(LoginDTO modelo)
+        public async Task<SesionDTO> Autorizacion(LoginDTO modelo)
         {
             try
             {
@@ -50,7 +50,7 @@ namespace Ecommerce.Servicio.Implementacion
                 if (responseModelo.IdUsuario != 0) {
                     return _mapper.Map<UsuarioDTO>(responseModelo);
                 } else {
-                    throw new TaskCanceledException("No puede crear");
+                    throw new TaskCanceledException("No se puede crear, intentar nuevamente.");
                 }
 
             } catch(Exception ex) {
@@ -73,7 +73,7 @@ namespace Ecommerce.Servicio.Implementacion
                     var respuesta = await _usuarioRepositorio.Editar(fromDbModelo);
 
                     if (!respuesta) {
-                        throw new TaskCanceledException("No se pudo editar");
+                        throw new TaskCanceledException("No se pudo editar, intentar nuevamente");
                     }
 
                     return respuesta;
@@ -87,11 +87,11 @@ namespace Ecommerce.Servicio.Implementacion
             }
         }
 
-        public async Task<bool> Eliminar(UsuarioDTO modelo)
+        public async Task<bool> Eliminar(int id)
         {
             try
             {
-                var consulta = _usuarioRepositorio.Consultar(p => p.IdUsuario == modelo.IdUsuario);
+                var consulta = _usuarioRepositorio.Consultar(p => p.IdUsuario == id);
                 var fromDbModelo = await consulta.FirstOrDefaultAsync();
 
                 if (fromDbModelo != null) {

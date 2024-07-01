@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\ecommerce.webassembly\\Ecommerce.WebAssembly.csproj": {}
+    "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\Ecommerce.WebAssembly\\Ecommerce.WebAssembly.csproj": {}
   },
   "projects": {
     "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\Ecommerce.DTO\\Ecommerce.DTO.csproj": {
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\ecommerce.webassembly\\Ecommerce.WebAssembly.csproj": {
+    "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\Ecommerce.WebAssembly\\Ecommerce.WebAssembly.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\ecommerce.webassembly\\Ecommerce.WebAssembly.csproj",
+        "projectUniqueName": "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\Ecommerce.WebAssembly\\Ecommerce.WebAssembly.csproj",
         "projectName": "Ecommerce.WebAssembly",
-        "projectPath": "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\ecommerce.webassembly\\Ecommerce.WebAssembly.csproj",
+        "projectPath": "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\Ecommerce.WebAssembly\\Ecommerce.WebAssembly.csproj",
         "packagesPath": "C:\\Users\\alexs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\ecommerce.webassembly\\obj\\",
+        "outputPath": "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\Ecommerce.WebAssembly\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexs\\AppData\\Roaming\\NuGet\\NuGet.Config",

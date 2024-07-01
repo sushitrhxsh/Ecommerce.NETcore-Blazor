@@ -19,7 +19,7 @@ namespace Ecommerce.API.Controllers
             _categoriaService = categoriaService;
         }
 
-        [HttpGet("Lista/{buscar:alpha?}")]
+        [HttpGet("Lista/{buscar?}")]
         public async Task<IActionResult> Lista(string buscar = "NA")
         {
             var response = new ResponseDTO<List<CategoriaDTO>>();
@@ -95,15 +95,15 @@ namespace Ecommerce.API.Controllers
             return Ok(response);
         }
         
-        [HttpDelete("Eliminar")]
-        public async Task<IActionResult> Eliminar([FromBody]CategoriaDTO modelo)
+        [HttpDelete("Eliminar/{id:int}")]
+        public async Task<IActionResult> Eliminar(int id)
         {
             var response = new ResponseDTO<bool>();
 
             try
             {
                 response.EsCorrecto = true;
-                response.Resultado = await _categoriaService.Eliminar(modelo);
+                response.Resultado = await _categoriaService.Eliminar(id);
 
             } catch(Exception ex) {
                 response.EsCorrecto = false;

@@ -4,11 +4,13 @@
     "Projects": [
       {
         "Name": "Ecommerce.API\\Ecommerce.API.csproj",
-        "Action": "Start"
+        "Action": "Start",
+        "DebugTarget": ""
       },
       {
         "Name": "Ecommerce.WebAssembly\\Ecommerce.WebAssembly.csproj",
-        "Action": "Start"
+        "Action": "Start",
+        "DebugTarget": ""
       }
     ]
   }

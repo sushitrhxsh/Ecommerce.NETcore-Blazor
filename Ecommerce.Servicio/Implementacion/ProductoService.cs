@@ -89,11 +89,11 @@ namespace Ecommerce.Servicio.Implementacion
             }
         }
 
-        public async Task<bool> Eliminar(ProductoDTO modelo)
+        public async Task<bool> Eliminar(int id)
         {
             try
             {
-                var consulta = _productoRepositorio.Consultar(p => p.IdProducto == modelo.IdProducto);
+                var consulta = _productoRepositorio.Consultar(p => p.IdProducto == id);
                 var fromDbModelo = await consulta.FirstOrDefaultAsync();
 
                 if (fromDbModelo != null) {

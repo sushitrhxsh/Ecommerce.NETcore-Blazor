@@ -38,8 +38,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy("NuevaPolitica", app =>
     {
         app.AllowAnyOrigin()
-        .AllowAnyHeader()
-        .AllowAnyMethod();
+           .AllowAnyHeader()
+           .AllowAnyMethod();
     });
 });
 

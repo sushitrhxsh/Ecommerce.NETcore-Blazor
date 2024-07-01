@@ -85,7 +85,7 @@ namespace Ecommerce.API.Controllers
             try
             {
                 response.EsCorrecto = true;
-                response.Resultado = await _usuarioService.Actorizacion(modelo);
+                response.Resultado = await _usuarioService.Autorizacion(modelo);
 
             } catch(Exception ex) {
                 response.EsCorrecto = false;
@@ -113,15 +113,15 @@ namespace Ecommerce.API.Controllers
             return Ok(response);
         }
         
-        [HttpDelete("Eliminar")]
-        public async Task<IActionResult> Eliminar([FromBody]UsuarioDTO modelo)
+        [HttpDelete("Eliminar/{id:int}")]
+        public async Task<IActionResult> Eliminar(int id)
         {
             var response = new ResponseDTO<bool>();
 
             try
             {
                 response.EsCorrecto = true;
-                response.Resultado = await _usuarioService.Eliminar(modelo);
+                response.Resultado = await _usuarioService.Eliminar(id);
 
             } catch(Exception ex) {
                 response.EsCorrecto = false;

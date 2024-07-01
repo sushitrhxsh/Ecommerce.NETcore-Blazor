@@ -1,8 +1,7 @@
 @page "/usuario"
 @page "/usuario/{Id:int}"
 
-@using Ecommerce.DTO
-@using Ecommerce.WebAssembly.Servicios.Contrato;
+
 @inject IUsuarioService usuarioService
 @inject IToastService toastService
 @inject NavigationManager _navService
@@ -52,18 +51,18 @@
 
 @code{
     [Parameter]
-    public int id {get; set;}
-    private string Titulo ="Nuevo usuario";
-    private string boton ="Crear";
+    public int Id { get; set; }
+    private string Titulo = "Nuevo usuario";
+    private string boton = "Crear";
     private UsuarioDTO modelo = new UsuarioDTO();
 
     protected override async Task OnParametersSetAsync()
     {
-        if(id != 0){
+        if(Id != 0){
             Titulo = "Editar usuario";
             boton = "Actualizar";
 
-            var response = await usuarioService.Obtener(id);
+            var response = await usuarioService.Obtener(Id);
             if(response.EsCorrecto!) {
                 modelo =(UsuarioDTO)response.Resultado!;
                 modelo.ConfirmarClave = modelo.Clave;
@@ -84,7 +83,7 @@
         bool respuesta = true;
         string mensaje = string.Empty;
 
-        if(id != 0){
+        if(Id != 0){
             var response = await usuarioService.Editar(modelo);
 
             if(response.EsCorrecto){
@@ -108,7 +107,7 @@
         }
 
         if(respuesta){
-            toastService.ShowWarning(mensaje);
+            toastService.ShowSuccess(mensaje);
             _navService.NavigateTo("/usuarios");
         } else {
             toastService.ShowWarning(mensaje);
@@ -116,4 +115,3 @@
     }
 
 }
-

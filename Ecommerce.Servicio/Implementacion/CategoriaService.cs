@@ -66,11 +66,11 @@ namespace Ecommerce.Servicio.Implementacion
             }
         }
 
-        public async Task<bool> Eliminar(CategoriaDTO modelo)
+        public async Task<bool> Eliminar(int id)
         {
             try
             {
-                var consulta = _categoriaRepositorio.Consultar(p => p.IdCategoria == modelo.IdCategoria);
+                var consulta = _categoriaRepositorio.Consultar(p => p.IdCategoria == id);
                 var fromDbModelo = await consulta.FirstOrDefaultAsync();
 
                 if (fromDbModelo != null) {

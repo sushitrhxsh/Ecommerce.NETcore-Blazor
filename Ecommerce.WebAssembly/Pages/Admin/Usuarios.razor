@@ -1,7 +1,5 @@
 @page "/usuarios"
 
-@using Ecommerce.DTO
-@using Ecommerce.WebAssembly.Servicios.Contrato
 @using System.Text.Json
 @inject IUsuarioService usuarioService
 @inject IToastService toastService
@@ -25,7 +23,6 @@
 </div>
 
 <div class="row gx-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 justify-content-start mt-2">
-
     @if (lista != null) {
         foreach(var item in lista)
         {
@@ -43,7 +40,7 @@
                     <div class="card-footer bg-transparent">
                         <div class="row justify-content-between">
                             <a class="col-5 btn btn-sm btn-outline-primary mt-auto" href="/usuario/@item.IdUsuario"><i class="oi oi-pencil fs-5"></i></a>
-                            <button class="col-5 btn btn-sm btn-outline-danger mt-auto" type="button" @onclick="( async()=> await Eliminar(item) )">
+                            <button class="col-5 btn btn-sm btn-outline-danger mt-auto" type="button" @onclick="(async()=>await Eliminar(item))">
                                 <i class="oi oi-trash fs-5"></i>
                             </button>
                         </div>
@@ -52,9 +49,7 @@
             </div>
         }
 
-    } 
-    else 
-    {
+    } else {
         <div class="spinner-border" role="status">
             <span class="visually-hidden">Loading...</span>
         </div>
@@ -66,13 +61,13 @@
     private List<UsuarioDTO>? lista = null;
     private string buscar = "";
 
-    private async Task ObtenerUsuarios(string Valor = "")
+    private async Task ObtenerUsuarios(string valor = "")
     {
         try 
         {
-            var response = await usuarioService.Lista("Administrador",Valor);
+            var response = await usuarioService.Lista("Administrador",valor);
             if (response.EsCorrecto) {
-                lista = (List<UsuarioDTO>)response.Resultado!;
+                lista = response.Resultado!;
             } else {
                 lista = new List<UsuarioDTO>();
             }

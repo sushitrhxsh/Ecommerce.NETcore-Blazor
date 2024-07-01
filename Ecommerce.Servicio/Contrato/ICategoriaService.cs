@@ -12,6 +12,6 @@ namespace Ecommerce.Servicio.Contrato
         Task<CategoriaDTO> Obtener(int id);
         Task<CategoriaDTO> Crear(CategoriaDTO modelo);
         Task<bool> Editar(CategoriaDTO modelo);
-        Task<bool> Eliminar(CategoriaDTO modelo);
+        Task<bool> Eliminar(int id);
     }
 }
