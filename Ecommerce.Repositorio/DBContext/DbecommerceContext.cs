@@ -74,7 +74,8 @@ public partial class DbecommerceContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.Precio).HasColumnType("decimal(10, 2)");
-
+            entity.Property(e => e.PrecioOferta).HasColumnType("decimal(10, 2)");
+            
             entity.HasOne(d => d.IdCategoriaNavigation).WithMany(p => p.Productos)
                 .HasForeignKey(d => d.IdCategoria)
                 .HasConstraintName("FK__Producto__IdCate__4CA06362");

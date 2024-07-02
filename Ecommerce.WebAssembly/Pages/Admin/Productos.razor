@@ -29,8 +29,11 @@
             <div class="col mb-5">
                 <div class="card h-100">
                     <!-- Sale badge-->
-                    <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nuevo</div>
-
+                    @if(DateTime.Now < item.FechaCreacion.Value.AddDays(30)){
+                        <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nuevo</div>
+                    }
+                   
+                    
                     <!-- Product image-->
                     <img class="card-img-top border-dark border-1" src="@item.Imagen">
                     

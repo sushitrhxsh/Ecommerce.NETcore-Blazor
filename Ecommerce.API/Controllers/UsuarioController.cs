@@ -19,16 +19,16 @@ namespace Ecommerce.API.Controllers
             _usuarioService = usuarioService;
         }
 
-        [HttpGet("Lista/{rol:alpha}/{buscar:alpha?}")]
-        public async Task<IActionResult> Lista(string rol, string buscar = "NA")
+        [HttpGet("Lista/{rol}/{buscar?}")]
+        public async Task<IActionResult> Lista(string rol, string buscar = "")
         {
             var response = new ResponseDTO<List<UsuarioDTO>>();
 
             try
             {
-                if(buscar == "NA") {
+                /*if(buscar == "NA") {
                     buscar = "";
-                }
+                }*/
 
                 response.EsCorrecto = true;
                 response.Resultado = await _usuarioService.Lista(rol,buscar);

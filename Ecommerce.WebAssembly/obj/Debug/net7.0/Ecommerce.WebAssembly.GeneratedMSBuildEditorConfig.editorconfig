@@ -13,83 +13,83 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Ecommerce.WebAssembly
 build_property.RootNamespace = Ecommerce.WebAssembly
-build_property.ProjectDir = C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.WebAssembly\
+build_property.ProjectDir = C:\Users\alexs\Documents\programacion\.net\Ecommerce\ecommerce.webassembly\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\alexs\Documents\programacion\.net\Ecommerce\Ecommerce.WebAssembly
+build_property.MSBuildProjectDirectory = C:\Users\alexs\Documents\programacion\.net\Ecommerce\ecommerce.webassembly
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/App.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Pages/Admin/Categoria.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Pages/Admin/Categoria.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmlhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Pages/Admin/Categorias.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Pages/Admin/Categorias.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmlhcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Pages/Admin/Dashboard.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Pages/Admin/Dashboard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Pages/Admin/Producto.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Pages/Admin/Producto.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdG8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Pages/Admin/Productos.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Pages/Admin/Productos.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdG9zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Pages/Admin/Usuario.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Pages/Admin/Usuario.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXN1YXJpby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Pages/Admin/Usuarios.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Pages/Admin/Usuarios.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXN1YXJpb3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Pages/Autorizacion/Login.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Pages/Autorizacion/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0b3JpemFjaW9uXExvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Pages/Autorizacion/Registro.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Pages/Autorizacion/Registro.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0b3JpemFjaW9uXFJlZ2lzdHJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Pages/Tienda/Cart.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Pages/Tienda/Cart.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGllbmRhXENhcnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Pages/Tienda/Catalogo.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Pages/Tienda/Catalogo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGllbmRhXENhdGFsb2dvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Pages/Tienda/Detalle.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Pages/Tienda/Detalle.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGllbmRhXERldGFsbGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Shared/LoginLayout.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Shared/LoginLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Shared/MainLayout.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Shared/NavMenu.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/Shared/SurveyPrompt.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexs/Documents/programacion/.net/Ecommerce/Ecommerce.WebAssembly/_Imports.razor]
+[C:/Users/alexs/Documents/programacion/.net/Ecommerce/ecommerce.webassembly/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

@@ -17,8 +17,10 @@ namespace Ecommerce.DTO
         
         public int? IdCategoria { get; set; }
 
-        [Required(ErrorMessage = "Ingrese un nombre")]
+        [Required(ErrorMessage = "Ingrese un precio")]
         public decimal? Precio { get; set; }
+        [Required(ErrorMessage = "Ingrese un precio oferta")]
+        public decimal? PrecioOferta { get; set; }
         [Required(ErrorMessage = "Ingrese una cantidad")]
         public int? Cantidad { get; set; }
         [Required(ErrorMessage = "Ingrese una imagen")]

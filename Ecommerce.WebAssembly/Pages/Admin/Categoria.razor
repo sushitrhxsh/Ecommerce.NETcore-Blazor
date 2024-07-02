@@ -5,6 +5,7 @@
 @inject ICategoriaService categoriaService
 @inject IToastService toastService
 @inject SweetAlertService Swal
+@inject NavigationManager _navService
 
 
 <div class="row justify-content-center  mt-3">
@@ -47,8 +48,6 @@
             var response = await categoriaService.Obtener(Id);
             if(response.EsCorrecto!) {
                 modelo =(CategoriaDTO)response.Resultado!;
-                modelo.ConfirmarClave = modelo.Clave;
-        
             } else {
                 toastService.ShowWarning(response.Mensaje);
             }
@@ -72,7 +71,7 @@
             }
 
         } else {
-            modelo.Rol = "Administrador";
+            //modelo.Rol = "Administrador";
             var response = await categoriaService.Crear(modelo);
 
             if(response.EsCorrecto){
