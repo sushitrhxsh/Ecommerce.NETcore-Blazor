@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\ecommerce.api\\Ecommerce.API.csproj": {}
+    "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\Ecommerce.API\\Ecommerce.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\ecommerce.api\\Ecommerce.API.csproj": {
+    "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\Ecommerce.API\\Ecommerce.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\ecommerce.api\\Ecommerce.API.csproj",
+        "projectUniqueName": "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\Ecommerce.API\\Ecommerce.API.csproj",
         "projectName": "Ecommerce.API",
-        "projectPath": "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\ecommerce.api\\Ecommerce.API.csproj",
+        "projectPath": "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\Ecommerce.API\\Ecommerce.API.csproj",
         "packagesPath": "C:\\Users\\alexs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\ecommerce.api\\obj\\",
+        "outputPath": "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\Ecommerce.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexs\\AppData\\Roaming\\NuGet\\NuGet.Config",

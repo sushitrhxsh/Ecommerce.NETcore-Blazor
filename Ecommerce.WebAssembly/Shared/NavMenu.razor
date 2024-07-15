@@ -1,4 +1,8 @@
-﻿<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light">
+﻿@inject ICarritoService carritoService
+@implements IDisposable 
+
+
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" runat="server" href="#">Ecommerce Demo</a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Alternar navegación" aria-controls="navbarSupportedContent"
@@ -8,7 +12,7 @@
         <div class="@NavMenuCssClass navbar-collapse d-sm-inline-flex justify-content-between">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
 
-                 <li class="nav-item" b-test><NavLink class="nav-link" href="dashboard"> Dashboard</NavLink></li>
+                <li class="nav-item" b-test><NavLink class="nav-link" href="dashboard"> Dashboard</NavLink></li>
                 <li class="nav-item"><NavLink class="nav-link" href="usuarios"> Usuarios</NavLink></li>
                 <li class="nav-item"><NavLink class="nav-link" href="categorias"> Categorias</NavLink></li>
                 <li class="nav-item"><NavLink class="nav-link" href="productos"> Productos</NavLink></li>
@@ -23,7 +27,7 @@
             <a class="btn btn-outline-dark ms-auto ms-md-0 me-3" href="/cart">
                 <i class="bi-cart-fill me-1"></i>
                 Cart
-                <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                <span class="badge bg-dark text-white ms-1 rounded-pill">@mostrarCantidadCarrito()</span>
             </a>
 
             <button class="btn btn-outline-dark ms-auto ms-md-0 me-3" type="button">Salir</button>
@@ -44,4 +48,21 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
+
+    protected override OnInitialized()
+    {
+        carritoService.MostrarItems += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+       carritoService.MostrarItems -= StateHasChanged; 
+    }
+
+    private int mostrarCantidadCarrito()
+    {
+        return carritoService.CantidadProductos();
+    }
+
+
 }
