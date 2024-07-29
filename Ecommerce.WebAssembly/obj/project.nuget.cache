@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r4iKEBNdT71uZi9QOSZJ76+HLPjVszmd1PN/1Sx84Z0B1JqcNqI2Acv/fIf8nx3goHelynIJkEjKAMxiTHwL7A==",
+  "dgSpecHash": "UnpvAxu6GSdLzvFJU4TWNiZX/pJG+Mnuyn5493Uh4GJjg7ScEQF1PTenHYpn2GbZ9kV6LoUuKHDy7BgfhgvjOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\alexs\\Documents\\programacion\\.net\\Ecommerce\\Ecommerce.WebAssembly\\Ecommerce.WebAssembly.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\alexs\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.18\\microsoft.aspnetcore.authorization.7.0.18.nupkg.sha512",
     "C:\\Users\\alexs\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.18\\microsoft.aspnetcore.components.7.0.18.nupkg.sha512",
     "C:\\Users\\alexs\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.18\\microsoft.aspnetcore.components.analyzers.7.0.18.nupkg.sha512",
+    "C:\\Users\\alexs\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\7.0.5\\microsoft.aspnetcore.components.authorization.7.0.5.nupkg.sha512",
     "C:\\Users\\alexs\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.18\\microsoft.aspnetcore.components.forms.7.0.18.nupkg.sha512",
     "C:\\Users\\alexs\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.18\\microsoft.aspnetcore.components.web.7.0.18.nupkg.sha512",
     "C:\\Users\\alexs\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.18\\microsoft.aspnetcore.components.webassembly.7.0.18.nupkg.sha512",
